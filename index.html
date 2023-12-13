@@ -722,13 +722,14 @@
   <script>
     window.onscroll = () => {
       const nav = document.querySelector('.nav');
+      const navLink = document.querySelectorAll('.nav-link');
 
       if(this.scrollY <= 500)
         nav.style.backgroundColor = 'rgba(0,0,0,0)';
         
       else
         nav.style.backgroundColor = 'rgb(255, 255, 255)';
-        nav.style.color = 'rgb(213, 120, 53)';
+        navLink.style.color = 'rgb(213, 120, 53)';
       }
     // 
   </script>
